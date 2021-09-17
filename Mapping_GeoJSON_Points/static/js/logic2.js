@@ -29,7 +29,8 @@ L.geoJson(sanFranAirport, {
     pointToLayer: function(feature, latlng) {
       console.log(feature);
       return L.marker(latlng)
-      .bindPopup("<h2>" + feature.properties.city + "</h2>");
+      .bindPopup("<h2>" + feature.properties.name + "</h2>")
+      .bindPopup("<h2>" + feature.properties.faa + "</h2>");
     }
 
   }).addTo(map);
@@ -38,7 +39,7 @@ L.geoJson(sanFranAirport, {
 let graymap = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
-	id: 'mapbox.streets',
+	id: 'dark-v10',
 	accessToken: API_KEY
 });
 
