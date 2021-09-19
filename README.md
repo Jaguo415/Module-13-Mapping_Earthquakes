@@ -24,6 +24,9 @@
 * Major Earthquake Data is added 
 <img width="770" alt="Screen Shot 2021-09-19 at 10 53 18 AM" src="https://user-images.githubusercontent.com/83923903/133937871-37460dc6-7d1f-4767-a89b-b98a7ff9bf81.png">
 
-*Challenge Complete 
+* Challenge Complete 
+* 3 modes, Street, Satelite, & Dark
+* d3.json Added Earthquake & Tectonic layer
+* Added Labels for all points
 
 <img width="1674" alt="Screen Shot 2021-09-19 at 11 01 08 AM" src="https://user-images.githubusercontent.com/83923903/133937952-51cefed2-c950-4a86-9d2c-f421847c0b59.png">
